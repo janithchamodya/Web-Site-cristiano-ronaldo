@@ -1,0 +1,288 @@
+
+/*---------JANITH CHAMODYA (TAN/IT/2020/F/0001)-----*/
+/*---------JANITH CHAMODYA (TAN/IT/2020/F/0001)-----*/
+/*---------JANITH CHAMODYA (TAN/IT/2020/F/0001)-----*/
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+/*--------------------------------------------------------------------------------first row--------------------------------------------------------------------------*/
+.first{width:100%;height:50px;border-style:solid;border-color: #e6e6e6;  border-radius:12px;}
+.f1{float:left;text-decoration:none;color:white;font-size:20px;margin-top:0px;margin-left:5px;text-align:center;}
+.f2{width:100;height:50;background-color:red;margin:auto;margin:top:5px; text-align:center;}
+.f1:hover{transform:scale(1.1);z-index:1;}
+/*-----------------------------------------------------------------------------end first row------------------------------------------------------------------------*/
+
+
+
+
+
+
+/*------------------------------------------------------------------------------second row--------------------------------------------------------------------------*/
+
+.menu-bar{background:white;text-align:center;}
+.menu-bar ul{display:inline-flex;list-style:none;}
+.menu-bar ul li{width:200px;margin:10px;padding:15px;}
+.menu-bar ul li a{text-decoration:none;color:black;font-family:verdana;}
+.active,.menu-bar ul li:hover{background:red;border-radius:5px;}
+.menu-bar,.fa {margin-right:3px;}
+.sub-menu-1{display:none;}
+.menu-bar ul li:hover .sub-menu-1{display:block;position:absolute;background:white;margin-top:15px;margin-left:-40px;}
+.menu-bar ul li:hover .sub-menu-1 ul{display:block;margin:10px;}
+.menu-bar ul li:hover .sub-menu-1 ul li{width:150px;padding:10px;border-bottom:1px dotted black;background:transparent;border-radius:0px;text-align:left; }
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{border-bottom:none;}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{color:red;}
+/*----------------------------------------------------------------------------end second row------------------------------------------------------------------------*/
+
+
+
+
+/*----------------------------------------------------------------------------main photo---------------------------------------------------------------------------*/
+
+
+
+
+ 
+/*---------------------------------------------------------------------------third row------------------------------------------------------------------------------*/
+.selection{min-height:180px;display:flex;  overflow-x:auto; border:2px solid #ddd;width:80%;margin:auto;background-color:white;}
+.selection .third {min-width:300px;margin-right:40px;height:200px;line-height:200px; }
+embed{padding:5px;}
+
+/*-------------------------------------------------------------------------end third row---------------------------------------------------------------------------*/
+
+
+
+
+/*--------------------------------------------------------------------------------forth row--------------------------------------------------------------------------*/
+ #maintopic{ font-size:50px; font-family:verdana;margin:auto;}
+
+#topic{width:97%;height:920px;margin:auto;}
+#topic1{width:422px;height:250px;float:left;}
+#subtopic1{width:200px;height:20px;background-color:white;margin-left:50px;float:left;}
+
+/*-------------description of picture----------*/
+
+#dtopic1{width:422px;height:200px;background-color:white;float:left;font-familly:Florence;font-size:25px;text-align:left;}
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------------------------------------------------end forth row--------------------------------------------------------------------------*/
+
+
+
+
+/*-----------------------------------------------------------------------------fiffth row----------------------------------------------------------------------------*/
+.container{width:10%;padding:10px;display:flex; margin:10px auto;justify-content:center; }
+.box {width:80px;height:100px;float:left;margin:0 20px;transition:1s;}
+.box img{display:block;width:75%;border-radius:5px;}
+.box:hover{transform:scale(1.1);z-index:1;}
+/*-----------------------------------------------------------------------end  fiffth row----------------------------------------------------------------------------*/
+
+
+
+
+/*-----------------------------------------------------------------------sixth row----------------------------------------------------------------------------------*/
+.text{width:90%;height:300px;background-color:#ffe4e1;margin:auto;padding:10px; }
+.text1{width:400px;height:200px;float:left;  margin:0 95px;}
+.text2{width:400px;height:200px;float:left;margin:0 95px;}
+
+/*-----------------------------------------------------------------------sixth row----------------------------------------------------------------------------------*/
+
+
+
+/*-----------------------------------------------------------------------final row----------------------------------------------------------------------------------*/
+#description{width:100%;padding:10px;height:300px;background-color:#f5f5f5;}
+
+#descriptionlogo .fa{margin-right:30px;}
+#descriptionlogo{width:180px;height:20px;background-color:white;margin:auto;text-align:center; }
+.fa:hover{transform:scale(2.2);z-index:1;}
+.description1{width:40%;height:250;float:left;}
+.description2{width:50%;height:250;float:left;margin-left:100px;}
+
+
+
+/*--------------------------------------------------------------------menu content-----------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------menu content-----------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------menu content-----------------------------------------------------------------------------------*/
+
+
+
+
+.main ul{list-style:none;}
+.main ul li{width:300px;margin:10px;padding:10px;}
+.main ul li a{text-decoration:none;color:red;font-family:verdana;font-size:30px;}
+.main ul li:hover{background:black;border-radius:5px;color:pink;}
+
+.sub-main-1{display:none;}
+.main ul li:hover .sub-main-1{display:block;position:absolute;background:white;margin-top:10px;margin-left:300px; }
+.main ul li:hover .sub-main-1 ul{display:block;margin:10px;}
+.main ul li:hover .sub-main-1 ul li{width:250px;padding:2px;border-bottom:1px dotted black;background:transparent;border-radius:0px;text-align:left;}
+.main ul li:hover .sub-main-1 ul li:last-child{border-bottom:none;}
+.main ul li a:hover {color:white;}
+.main ul li:hover .sub-main-1 ul li a{color:black;}
+
+
+
+
+/*-----------------------------------------------------------------end menu content---------------------------------------------------------------------------------*/
+
+
+
+
+/*-------------------------------------------------------------cr biography content 2 row---------------------------------------------------------------------------*/
+.menu-bar-1{background:white;text-align:center;}
+.menu-bar-1 ul{display:inline-flex;list-style:none;}
+.menu-bar-1 ul li{width:200px;margin:0px;padding:0px;}
+.menu-bar-1 ul li a{text-decoration:none;color:black;font-family:verdana;font-size:20px;}
+.menu-bar-1 a:hover{color:white;background:red;border-radius:3px;transform:scale(2.2);}
+/*------------------------------------------------------------cr  wealth content 3 row-----------------------------------------------------------------------------*/
+#crwpoto{width:100%;height:700px;background-image:url('https://pictures.trbna.com/image/0cca9389-cfc1-4d1b-a4bc-1cb173c61301');background-size:100% 100%;}
+
+
+/*------------------------------------------------------------cr   wealth content 4 row-----------------------------------------------------------------------------*/
+#crwd{width:50%;height:400px;margin:auto;font-family:DokChampa;font-size:20px;line-height:1.4;letter-spacing:0.1rem;text-align:justify;}
+/*-----------------------------------------------------------cr    wealth content 5 row------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------cr   wealth content 6 row-------------------------------------------------------------------------------*/
+#crwfd{width:80%;height:200px;margin:auto;font-size:20px;text-align:justify;font-family:Times New Roman;}
+#crwfp1{width:70%;height:500px;margin:auto;background-size:100% 100%;font-family:Calibri;text-align:center;font-size:20px;line-height:1.4;letter-spacing:0.1rem;}
+#crwfp11{width:60%;height:20px;margin:auto;font-family:Calibri;text-align:center;font-size:20px;line-height:1.4;letter-spacing:0.1rem;}
+#crwfp112{width:70%;height:50px;margin-left:200px;font-family:Calibri;text-align:center;font-size:20px;line-height:1.4;letter-spacing:0.1rem;text-align:justify;}
+/*-----------------------------------------------------------cr   wealth content 7 row------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------cr Charity Work content 3 row-----------------------------------------------------------------------*/
+/*--------------------------------------------------------------cr  Charity Work content 3 row----------------------------------------------------------------------*/
+/*--------------------------------------------------------------cr  Charity Work content 3 row----------------------------------------------------------------------*/
+.crclogo{width:100px;height:100px;margin:auto;}
+/*--------------------------------------------------------------cr  Charity Work content 8 row----------------------------------------------------------------------*/
+.crchdbox{width:75%;height:2100px;margin:auto;}
+.crchdbox1{font-family:DokChampa;text-align:justify;font-size:20px;line-height:1.4;letter-spacing:0.1rem;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------cr family content 2 row------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------cr family content 2 row------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------cr family content 2 row------------------------------------------------------------------------------*/
+#crf1{font-size:3.1rem;line-height:1.4;letter-spacing:0.2rem;color:black;text-align:center;margin-top:50px;}
+.maindiv{width:99%;height:700px;position:absolute;margin-left:50%;margin-top:5%;
+top:100%;background-image:url('https://media.gettyimages.com/photos/new-bust-representing-portuguese-footballer-cristiano-ronaldo-is-at-picture-id977748998?s=612x612');
+background-size:100% 100%;transform:translate(-50%, -50%);box-shadow:1px 2px 10px 5px black;animation: crfpoto 60s infinite linear  ;}
+@keyframes crfpoto{10%{ background-image:url('https://media.gettyimages.com/photos/the-best-fifa-mens-player-award-winner-cristiano-ronaldo-of-portugal-picture-id631347876?k=20&m=631347876&s=612x612&w=0&h=6d6cLOfV1pWuw8BmdAMrSVGsGzobRTWgRUq6W4oIFyw=');}
+ 20%{background-image:url('https://media.gettyimages.com/photos/cristiano-ronaldo-of-juventus-poses-with-the-serie-a-trophy-alongside-picture-id1150798998?k=20&m=1150798998&s=612x612&w=0&h=a1jiIpBJVtyqV17m5byGE0M6vLP22scEjPyvANAtiCM=');}
+ 30%{background-image:url('https://media.gettyimages.com/photos/cristiano-ronaldo-of-portugal-plays-with-his-son-after-the-friendly-picture-id969466270?k=20&m=969466270&s=612x612&w=0&h=YRNz5EYeZpoRirCzXMu--4o4NR92sF0mcjrP8VP7so0=');}
+ 40%{background-image:url('https://media.gettyimages.com/photos/cristiano-ronaldo-celebrates-the-launch-of-new-cr7-play-it-cool-with-picture-id1174372553?k=20&m=1174372553&s=612x612&w=0&h=y1jptKaST2MFQbKjFzm2ZpwWdWgyd55gJsWHo4RRC2E=');}
+ 60%{background-image:url('https://media.gettyimages.com/photos/cristiano-ronaldo-of-juventus-poses-with-the-serie-a-trophy-alongside-picture-id1145218034?k=20&m=1145218034&s=612x612&w=0&h=afzLMx2wLSPIasotV9zjZSEB8kWhK_-Krqwm7ReevX0=');}
+ 70%{background-image:url('https://media.gettyimages.com/photos/nominee-for-the-best-fifa-football-player-barcelona-and-argentina-picture-id865479092?s=612x612');}
+ 80%{background-image:url('https://media.gettyimages.com/photos/real-madrids-portuguese-forward-cristiano-ronaldo-poses-with-family-picture-id962801594?s=612x612');}
+ 90%{background-image:url('https://media.gettyimages.com/photos/real-madrids-portuguese-forward-cristiano-ronaldo-celebrates-with-his-picture-id962802038?s=612x612');}
+ 100%{background-image:url('https://media.gettyimages.com/photos/cristiano-ronaldo-of-real-madrid-looks-up-to-where-is-mother-is-as-picture-id137367592?k=20&m=137367592&s=612x612&w=0&h=p6wntGKxfhYvdAHmhaZ2ajP76vWVcrNLxHATfCwakcU=');}
+} 
+/*--------------------------------------------------------------cr family content 5 row------------------------------------------------------------------------------*/
+.crfp{font-family:DokChampa;font-size:20px;line-height:1.4;letter-spacing:0.1rem;text-align:justify;width:75%;height:200px;margin:auto;}
+.crfvr{width:3px;height:100%;background-color:black;margin:auto;float:left;}
+.crfbox1{width:49%;height:100%;float:left;}
+.crfbox2{width:49%;height:60%;margin:0 0 0 auto;background-image:url('https://sportslibro.com/wp-content/uploads/2021/08/iooofofof.jpg');background-size:100% 100%;}
+.crfp1{font-family:Calibri;text-align:center;font-size:20px;line-height:1.4;letter-spacing:0.1rem;}
+.crfbox3{width:49%;height:50%;float:left;background-image:url('https://images.celebfamily.com/wp-content/uploads/2016/06/ronaldo-childhood.jpg' );background-size:100% 100%;}
+.crfbox4{width:30%;height:43%;margin:0 0 0 auto;background-image:url('https://images.celebfamily.com/wp-content/uploads/2016/06/ronaldo-early-career.jpg');background-size:100% 100%;}
+.crfvr1{width:3px;height:75%;background-color:black;margin:auto;float:left;}
+.crfbox5{width:49%;height:50%;float:left;background-image:url('https://images.celebfamily.com/wp-content/uploads/2016/06/Ronaldo-Early-Success.jpg' );background-size:100% 100%;}
+/*--------------------------------------------------------------cr family parents poto content 6 row-----------------------------------------------------------------*/
+
+.crfpp1{background-image:url('https://media.gettyimages.com/photos/cristiano-ronaldo-of-juventus-celebrates-with-his-mother-maria-the-picture-id1150370173?s=2048x2048' );width:100%;height:700px;margin:auto;}
+/*--------------------------------------------------------------cr family parents  content 6 row-----------------------------------------------------------------*/
+
+
+.crfbox6{width:49%;height:80%;float:left;background-image:url('https://images.celebfamily.com/wp-content/uploads/2016/06/Ronaldo-Mother.jpg' );background-size:100% 100%;}
+.crfbox7{width:49%;height:60%;margin:0 0 0 auto;background-image:url('https://sportslibro.com/football/wp-content/uploads/2020/01/ertthh.jpg');background-size:100% 100%;}
+/*--------------------------------------------------------------cr family Siblings  content 6 row-----------------------------------------------------------------*/
+
+.crfbox8{width:49%;height:60%;float:left;background-image:url('https://images.celebfamily.com/wp-content/uploads/2016/06/ronaldo-sibblings-600x368.jpg' );background-size:100% 100%;}
+/*--------------------------------------------------------------cr family wife  content 6 row-----------------------------------------------------------------*/
+.crfbox9{width:49%;height:60%;margin:0 0 0 auto;background-image:url('https://images.celebfamily.com/wp-content/uploads/2016/06/ronaldo-son-600x502.jpg');background-size:100% 100%;}
+
+/*--------------------------------------------------------------cr family wife  content 6 row-----------------------------------------------------------------*/
+.crfbox10{width:49%;height:50%;float:left;background-image:url('https://sportslibro.com/football/wp-content/uploads/2018/07/llllll.jpg' );background-size:100% 100%;}
+#up{width:20px;height:40px;margin:0 0 0 auto;margin-right:50px;}
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------cr sponsores content 2 row--------------------------------------------------------------------------*/
+/*--------------------------------------------------------------cr sponsores content 2 row--------------------------------------------------------------------------*/
+/*--------------------------------------------------------------cr sponsores content 2 row--------------------------------------------------------------------------*/
+.CRSBOX{width:95%;height:375px;background-color:black;margin:auto;}
+.CRSBOX1{width:32%;height:350px;float:left;}
+.CRSBOX2{width:32%;height:350px;float:left;margin-left:25px;background-color:black;}
+.CRSBOX3{width:32%;height:350px;float:left;margin-left:25px;background-color:black;}
+.CRSBOX1:hover{transform:scale(1.1);z-index:1;}
+.CRSBOX2:hover{transform:scale(1.1);z-index:1;}
+.CRSBOX3:hover{transform:scale(1.1);z-index:1;}
+/*--------------------------------------------------------------cr sponsores detaills content 2 row-----------------------------------------------------------------*/
+
+.crdslbox{width:40%;height:1200px;float:left;}
+.crdsRbox{width:40%;height:800px;float:left;margin-left:265px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
